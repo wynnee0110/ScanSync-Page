@@ -1,0 +1,13 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Large binary files (GitHub has a strict 100MB limit per file)
+# The APK should be hosted via GitHub Releases instead of Git commits
+downloads/*.apk
+downloads/*.ipa
+*.apk
+*.ipa
+
+# Node / Dependencies
+node_modules/
