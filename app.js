@@ -6,15 +6,10 @@
 /**
  * CONFIGURATION
  * 
- * To host the 126 MB APK externally (recommended via GitHub Releases):
- * 1. Upload your 'scansync.apk' to your GitHub Release assets.
- * 2. Paste the direct download link in 'apkDownloadUrl' below:
- *    e.g. 'https://github.com/wynnee0110/icpep-scansync/releases/latest/download/scansync.apk'
- * 
- * If left empty or null, it defaults to the local 'downloads/scansync.apk'.
+ * Direct APK download link from GitHub Releases
  */
 const CONFIG = {
-  apkDownloadUrl: 'https://github.com/wynnee0110/ScanSync-Page/releases/tag/1.0/scansync-v1.0.0.apk' // e.g. 'https://github.com/wynnee0110/icpep-scansync/releases/latest/download/scansync.apk'
+  apkDownloadUrl: 'https://github.com/wynnee0110/ScanSync-Page/releases/download/1.0/scansync-v1.0.0.apk'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -90,7 +85,7 @@ function initDownloadFeedback() {
 
   if (btnAndroid) {
     btnAndroid.addEventListener('click', () => {
-      showToast('Downloading ScanSync APK for Android...');
+      showToast('Starting ScanSync APK download...');
     });
   }
 }
