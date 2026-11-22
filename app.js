@@ -14,7 +14,7 @@
  * If left empty or null, it defaults to the local 'downloads/scansync.apk'.
  */
 const CONFIG = {
-  apkDownloadUrl: null, // e.g. 'https://github.com/wynnee0110/icpep-scansync/releases/latest/download/scansync.apk'
+  apkDownloadUrl: 'https://github.com/wynnee0110/ScanSync-Page/releases/tag/1.0/scansync-v1.0.0.apk' // e.g. 'https://github.com/wynnee0110/icpep-scansync/releases/latest/download/scansync.apk'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
