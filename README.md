@@ -6,7 +6,7 @@ A clean, minimalist white download page for **ScanSync** — the offline-first a
 
 - **Clean Minimalist Architecture**: Focused solely on clear app delivery without clutter.
 - **Platform Options**:
-  - **Android**: Direct APK download (`v1.0.0`, ~126 MB).
+  - **Android**: Direct APK download (`v1.2`, ~145 MB).
   - **iOS**: Marked as "Coming Soon" with in-development notice.
 - **Core Highlights**: Offline SQLite storage, smart student ID year parsing, duplicate prevention, and Supabase cloud sync.
 - **Android Install Guide**: 3 clear steps for sideloading and granting camera permissions.

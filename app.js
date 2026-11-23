@@ -9,7 +9,7 @@
  * Direct APK download link from GitHub Releases
  */
 const CONFIG = {
-  apkDownloadUrl: 'https://github.com/wynnee0110/ScanSync-Page/releases/download/1.0/scansync-v1.0.0.apk'
+  apkDownloadUrl: 'https://github.com/wynnee0110/ScanSync-Page/releases/download/v1.2/scansync.apk'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -85,7 +85,7 @@ function initDownloadFeedback() {
 
   if (btnAndroid) {
     btnAndroid.addEventListener('click', () => {
-      showToast('Starting ScanSync APK download...');
+      showToast('Starting ScanSync v1.2 APK download...');
     });
   }
 }
