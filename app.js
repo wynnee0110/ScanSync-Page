@@ -6,11 +6,10 @@
 /**
  * CONFIGURATION
  * 
- * Clean branded download link served via Cloudflare Pages _redirects:
- * /scansync.apk -> redirects automatically to latest APK release
+ * Direct APK download link from GitHub Releases
  */
 const CONFIG = {
-  apkDownloadUrl: '/scansync.apk'
+  apkDownloadUrl: 'https://github.com/wynnee0110/ScanSync-Page/releases/download/v1.2/scansync.apk'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
